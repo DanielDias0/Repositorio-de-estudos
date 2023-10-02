@@ -1,0 +1,28 @@
+Algoritmo "Saque dinheiro caixa eletronico"
+// Rotina para sacar dinheiro em um caixa eletronico
+    Var
+    VALOR_SAQUE, SALDO: real
+    SENHA_SAQUE, NUM_AGENCIA, NUN_CONTA: inteiro
+
+inicio
+    Escreval ("Seja bem-vindo!")
+    Escreval ("Informe o numero da sua agencia:")
+    Leia (NUM_AGENCIA)
+    Escreval ("Informe o numero da sua conta:")
+    Leia (NUN_CONTA)
+    Escreval ("Informe a sua senha:")
+    Leia (SENHA_SAQUE)
+// Após ler os dados, o sistema deverá trazer do banco de dados o valor do saldo do usuario na variavel SALDO
+    Escreval ("Informe o valor do saque:")
+    Leia (VALOR_SAQUE)
+    Se (VALOR_SAQUE> 0) e (VALOR_SAQUE <= SALDO) ENTAO
+        SALDO = SALDO - VALOR_SAQUE
+        Escreval ("Saque efetuado com sucesso. Seu saldo atual R$:")
+        Escreval (SALDO)
+// Após apresentar o novo saldo o sistema deve fazer a cntagem das notas e disponibilizar a quantia sacada ao usuario
+        Escreval ("Retire o cartão, o dinheiro e o comprovante de saque.")
+    Senao
+        Escreval ("Saldo insuficiente. Não será possivel realizar a operação.")
+    Fimse
+Fimalgoritmo
+// Fim do Algoritimo.

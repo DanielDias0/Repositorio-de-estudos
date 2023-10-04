@@ -1,0 +1,25 @@
+Algoritmo "Quatro_operacoes_basicas"
+// rotina que recebe dois números e que apresenta o resultado
+  Var
+  NUM_A, NUM_B, SOMA, SUBTRACAO, MULTIPLICACAO, DIVISAO: real
+  
+  inicio
+    Escreval ("Programa que executa as quatro operações básicas")
+    Escreval ("Informe o primeiro número:")
+    Leia (NUM_A)
+    Escreval ("Informe o segundo nmúero:")
+    Leia (NUM_B)
+    SOMA <- NUM_A + NUM_B
+    SUBTRACAO <- NUM_A - NUM_B
+    MULTIPLICACAO <- NUM_A * NUM_B
+    DIVISAO <- NUM_A / NUM_B
+    Escreval ("A soma dos dois números é")
+    Escreval (SOMA)
+    Escreval ("A subtraçãoo dos dois números é")
+    Escreval (SUBTRACAO)
+    Escreval ("A multiplicação entre os dois números é")
+    Escreval (MULTIPLICACAO)
+    Escreval ("A divisâo entre os dois números é")
+    Escreval (DIVISAO)
+
+  FimAlgoritmo

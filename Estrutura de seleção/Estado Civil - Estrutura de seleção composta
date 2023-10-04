@@ -1,0 +1,25 @@
+algoritmo "Estado Civil"
+var
+ec: inteiro
+inicio
+// Solicita ao usuário para digitar o estado civil
+escreval ("Digite o estado civil (1 - solteiro, 2 - casado, 3 - outros)")
+leia (ec)
+// Verifica se o estado civil é solteiro
+se (ec) = 1 entao
+escreval ("Solteiro")
+fimse
+// Verifica se o estado civil é casado
+se (ec) = 2 entao
+escreval ("Casado")
+fimse
+// Verifica se o estado civil é outro
+se (ec) = 3 entao
+escreval ("Outros")
+fimse
+// Verifica se o valor digitado é inválido
+// No VisualG, o operador de desigualdade é representado por <>
+se (ec <> 1) e (ec <> 2) e (ec <> 3) entao
+escreval ("Valor inválido")
+fimse
+fimalgoritmo
